@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     var password = document.getElementById("password").value;
 
     if (email === "test@temple.edu" && password === "test") {
-        location.reload();
+        window.location.href = "index.html";
     } else {
         alert("Incorrect Login. Please try again.");
         loginErrorMsg.style.opacity = 1; 
