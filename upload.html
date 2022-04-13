@@ -25,18 +25,18 @@
             </div>
         </div>
     </nav>
-    <div class="alert alert-success" role="alert" style="color: var(--bs-dark);background: #dc3545;border-style: none;margin-bottom: 0px;"><span>Awaiting student upload for upcoming semester. Starts in&nbsp;<strong>X</strong>&nbsp;days.</span></div>
     <section class="login-clean">
+        <h1 class="fs-3 text-center">Course Map Upload</h1>
         <form method="post" style="width: 420px;">
             <h2 class="visually-hidden">Login Form</h2>
             <div class="illustration"><i class="icon ion-upload"></i></div><span class="text-center">Course Map Upload&nbsp;</span>
             <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Course Map Name"></div>
             <div class="mb-3"><input class="form-control" type="file"></div>
-            <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit" style="background: var(--bs-blue);">Upload Course Map</button></div>
+            <div class="mb-3"><button class="btn btn-primary disabled d-block w-100" type="submit" style="background: var(--bs-blue);" disabled="">Upload Course Map</button></div>
             <div class="text-start">
                 <div><span class="text-center">Bulk Student CSV Upload</span></div>
             </div>
-            <div><input class="form-control" type="text" placeholder="Bulk Student CSV Name"></div>
+            <div><input class="form-control" type="text" placeholder="2022Students.csv"></div>
             <div><input class="form-control" type="file"></div>
             <div><button class="btn btn-primary d-block w-100" type="submit" style="background: var(--bs-blue);">Upload Bulk Student CSV</button></div>
         </form>
